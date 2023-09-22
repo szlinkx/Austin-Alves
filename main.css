@@ -41,13 +41,14 @@ nav ul li a{
     color: black;
     border-style: solid;
     border-radius: 10px;
+    transition: 0.4s;
     
 }
 
 nav ul li a:hover{
     background: rgb(70,70,70);
     color: white;
-    transition: 0.4s;
+    
     
 }
 
