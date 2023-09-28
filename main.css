@@ -3,7 +3,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background: rgb(245,245,245);
     /* https://fonts.google.com/specimen/Poppins?sort=popularity */
+}
+
+footer {
+    background-color: rgb(235,235,235);
 }
 
 
@@ -61,4 +66,22 @@ nav ul li a:hover{
     padding-left: 2%;
     border-style: none;
 
+}
+
+/* Resume */
+
+.resume:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.resume_column {
+    width: 70%;
+    float: left;
+}
+
+.resume_sidebar {
+    width: 30%;
+    float: right;   
 }
