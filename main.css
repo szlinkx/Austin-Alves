@@ -9,6 +9,7 @@ body {
 
 footer {
     background-color: rgb(235,235,235);
+    padding: 1%;
 }
 
 
@@ -70,18 +71,65 @@ nav ul li a:hover{
 
 /* Resume */
 
-.resume:after {
+#resume_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.resume {
+    padding: 1%;   
+}
+
+.resume_body:after {
   content: "";
   display: table;
   clear: both;
 }
 
+.resume_body {
+    padding: 1%;
+    background: rgb(235,235,235);
+    line-height: 180%
+}
+
 .resume_column {
+    width: 63%;
+    padding-right: 2%;
+    float: left;
+    border-right: solid;
+}
+
+.resume_section {
+    color: rgb(52, 140, 235);
+}
+
+.item_title {
     width: 70%;
     float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.item_date {
+    font-style: italic;
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.resume_item:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .resume_sidebar {
-    width: 30%;
-    float: right;   
+    width: 32%;
+    float: right;
 }
+
+.sidebar_date {
+    color: rgb(52, 140, 235);
+}
+
