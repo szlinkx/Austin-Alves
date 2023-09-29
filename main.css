@@ -71,6 +71,8 @@ nav ul li a:hover{
 
 /* Resume */
 
+/* Resume Main Body */
+
 #resume_title {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -92,6 +94,8 @@ nav ul li a:hover{
     background: rgb(235,235,235);
     line-height: 180%
 }
+
+/* Resume Sidebar */
 
 .resume_column {
     width: 63%;
