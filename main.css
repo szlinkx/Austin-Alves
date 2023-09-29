@@ -38,7 +38,8 @@ nav ul li a{
     margin-bottom: 1%;
     font-size: 15pt;
     display: inline;
-    float: right;
+    float: left;
+    text-align: right;
     text-decoration: none;
     list-style-type: none;
     margin-right: 2%;
@@ -58,15 +59,26 @@ nav ul li a:hover{
     
 }
 
+.active {
+    background: rgb(52, 140, 235);
+    color: white;
+    border-color: rgb(52, 140, 235);
+}
+
 /* Logo name in top left corner */
 
 #austin {
     text-decoration: none;
     color: black;
+    width: 65%;
     font-size: 30pt;
     padding-left: 2%;
     border-style: none;
 
+}
+
+.body {
+    padding: 1%;   
 }
 
 /* Resume */
@@ -77,10 +89,6 @@ nav ul li a:hover{
     margin-top: 0px;
     margin-bottom: 0px;
     
-}
-
-.resume {
-    padding: 1%;   
 }
 
 .resume_body:after {
