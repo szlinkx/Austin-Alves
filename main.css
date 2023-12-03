@@ -103,7 +103,7 @@ nav ul li a:hover{
 /* Resume Sidebar */
 
 .resume_column {
-    width: 63%;
+    width: 70%;
     padding-right: 2%;
     float: left;
     border-right: solid;
@@ -134,7 +134,7 @@ nav ul li a:hover{
 }
 
 .resume_sidebar {
-    width: 32%;
+    width: 26%;
     float: right;
 }
 
